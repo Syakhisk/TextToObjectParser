@@ -1,0 +1,32 @@
+html, body{
+  height: 100%;
+}
+.header>.card>.card-header{
+  line-height: 0px;
+}
+
+.card>.card-body.overflow{
+  /* white-space: pre-wrap; */
+  /* padding: 0; */
+  /* margin: 0; */
+  overflow: scroll;
+  /* overflow-y: scroll; */
+  height: 350px;
+  font-size: 0.7rem;
+}
+
+th>input, td>input{
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#tooltip{
+  background-color: lightgrey;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 100%;
+  padding: .2rem .5rem;
+  font-size: .7rem;
+  font-weight: bolder;
+}
